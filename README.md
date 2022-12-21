@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link Here!]()
-- Live Site URL: [Website Here!]()
+- Solution URL: [Link Here!](https://www.frontendmentor.io/solutions/product-preview-card-component-1h7KqLORiG)
+- Live Site URL: [Website Here!](https://t-minini.github.io/product-preview-card-component/)
 
 ### Built with
 
