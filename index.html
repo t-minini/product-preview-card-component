@@ -34,15 +34,16 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <section class="card-container">
-      <figure class="image">
+    <main class="card-container">
+      <picture class="image">
+        <source media="(max-width: 414px)" srcset="./images/image-product-mobile.jpg">
         <img
           src="./images/image-product-desktop.jpg"
-          alt="chanel gabrielle perfume bottle"
+          alt="chanel gabrielle perfume bottle with green leaves around it"
         />
-      </figure>
-      <article class="perfume-container">
-        <h3>Perfume</h3>
+      </picture>
+      <section class="perfume-container">
+        <p class="perfume">Perfume</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>
         <p class="description">
           A floral, solar and voluptuous interpretation composed by Olivier
@@ -50,7 +51,7 @@
         </p>
         <div class="prices">
           <p class="price-new">$149.99</p>
-          <p class="price-old">$169.99</p>
+          <p class="price-old"><del><span class="sr-only">the previous price was</span> $169.99</del></p>
         </div>
         <button class="btn">
           <img
@@ -58,8 +59,8 @@
             alt="cart icon"
           />&nbsp;&nbsp;&nbsp;Add to Cart
         </button>
-      </article>
-    </section>
+      </section>
+    </main>
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
